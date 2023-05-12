@@ -1,4 +1,4 @@
-const catchAsyncError = require("../middleware/catchAsyncError");
+const catchAsyncError = require("../middleware/catchasyncError");
 
 const stripe = require("stripe")(process.env.STRIPE_SECRET_KEY);
 
