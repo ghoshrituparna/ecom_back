@@ -30,4 +30,8 @@ app.use("/api/v1", payment);
 //Middleware for Error
 app.use(errorMiddleware);
 
+app.get("/", (req, res) => {
+  res.send("Express on Vercel");
+});
+
 module.exports = app;
